@@ -15,6 +15,7 @@ npm create astro@latest -- --template basics
 ## 🚀 Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
+ttps://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0168878893742!2d-58.237301!3d-32.4738157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95afda57b9f3bdb9%3A0xb8bd84d18ef8bb69!2sSceliga+Pablo+Reverendo+825,+E3260+Concepci%C3%B3n+del+Uruguay,+Entre+R%C3%ADos!5e0!3m2!1ses!2sar!4v1635789876543!5m2!1ses!2sar
 
 ```text
 /

@@ -1,0 +1,37 @@
+---
+---
+<header class="fixed w-full z-50 bg-white bg-opacity-95 shadow-md transition-all duration-300 ease-in-out">
+  <nav class="container mx-auto px-6 py-3">
+    <div class="flex justify-between items-center">
+      <a href="#" class="text-2xl font-bold text-gray-800">
+        <img src="/images/gym-logo.png" alt="Gimnasio Logo" class="h-12">
+      </a>
+      <div class="hidden md:flex space-x-6">
+        <a href="#clases" class="text-gray-800 hover:text-blue-600 font-semibold transition-colors duration-300">Clases</a>
+        <a href="#horarios" class="text-gray-800 hover:text-blue-600 font-semibold transition-colors duration-300">Horarios</a>
+        <a href="#ubicacion" class="text-gray-800 hover:text-blue-600 font-semibold transition-colors duration-300">Ubicación</a>
+        <a href="#testimonios" class="text-gray-800 hover:text-blue-600 font-semibold transition-colors duration-300">Testimonios</a>
+      </div>
+      <button class="md:hidden text-gray-800 focus:outline-none" id="menu-toggle">
+        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+        </svg>
+      </button>
+    </div>
+    <div class="md:hidden hidden mt-4" id="mobile-menu">
+      <a href="#clases" class="block py-2 text-gray-800 hover:text-blue-600 font-semibold">Clases</a>
+      <a href="#horarios" class="block py-2 text-gray-800 hover:text-blue-600 font-semibold">Horarios</a>
+      <a href="#ubicacion" class="block py-2 text-gray-800 hover:text-blue-600 font-semibold">Ubicación</a>
+      <a href="#testimonios" class="block py-2 text-gray-800 hover:text-blue-600 font-semibold">Testimonios</a>
+    </div>
+  </nav>
+</header>
+
+<script>
+  const menuToggle = document.getElementById('menu-toggle');
+  const mobileMenu = document.getElementById('mobile-menu');
+
+  menuToggle.addEventListener('click', () => {
+    mobileMenu.classList.toggle('hidden');
+  });
+</script>
